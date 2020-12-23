@@ -1,6 +1,6 @@
-# onboarding_screens
+# OnBoardng Screens
 
-A new Flutter project.
+OnBoarding screens using PageView in Flutter.
 
 ## Getting Started
 
