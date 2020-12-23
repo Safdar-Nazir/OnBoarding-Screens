@@ -1,0 +1,40 @@
+name: onboarding_screens
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_svg: ^0.18.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:  
+  uses-material-design: true
+ 
+  assets:
+    - assets/fonts/
+    - assets/svgs/
+    - assets/images/
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat.ttf
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+  
